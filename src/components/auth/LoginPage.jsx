@@ -73,13 +73,13 @@ const LoginPage = ({ isRegisterModedefault = false }) => {
           </p>
         </div>
 
-        {/* error message */}
+        {/* error msg */}
         {error && (
           <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg">
             <p className="text-sm text-red-600">{error}</p>
           </div>
         )}
-        {/* Sign Up form */}
+        {/* Sign up form */}
         <form onSubmit={handleEmailSubmit} className="space-y-4 mb-6">
           {isregisterMode && (
             <div>
@@ -171,7 +171,7 @@ const LoginPage = ({ isRegisterModedefault = false }) => {
             <span className="px-2 bg-white text-gray-500">or</span>
           </div>
         </div>
-        {/* Google Sign in Btn*/}
+        {/* google sign in Btn*/}
         <GoogleLoginButton isregisterMode={isregisterMode} loading={loading} />
         <div className="text-center">
           <button

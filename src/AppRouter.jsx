@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
-// import { DataContext } from "./context/DataContext";
 
 import LoginPage from "./components/auth/LoginPage";
 import FileUpload from "./components/upload/FileUpload";
