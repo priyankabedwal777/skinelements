@@ -1,4 +1,4 @@
-# Dashboard
+# Dashboard SKIN ELEMENTS
 
 Skin Elements Assignment React-based dashboard with Google authentication, file uploads, interactive charts, and platform integrations.
 
